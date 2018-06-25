@@ -25,3 +25,7 @@ laravel + swoole + vue 直播聊天互动
 * 前端采用vue.js + vuex + vue router + ele UI + webpack 实现 
 #### nginx 代理转发
 * [参考 链接](https://wiki.swoole.com/wiki/page/326.html)
+
+### 缺陷
+* 实际使用，laravel 框架比较重，可选用其他轻量级框架
+* websocket 链接不建议保存为redis 里键值对
