@@ -28,4 +28,4 @@ laravel + swoole + vue 直播聊天互动
 
 ### 缺陷
 * 实际使用，laravel 框架比较重，可选用其他轻量级框架
-* websocket 链接不建议保存为redis 里键值对
+* 访问量比较小，websocket 链接不建议保存为redis 里键值对
